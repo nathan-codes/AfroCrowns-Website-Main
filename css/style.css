@@ -32,6 +32,11 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+@font-face {
+	font-family: myFont;
+	src: url(/fonts/JurassicPark.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -2577,13 +2582,87 @@ ol {
 
 .main-header {
   margin: 0 0 !important;
-  font-size: 2.3rem !important;
+  font-size: 4rem !important;
+  letter-spacing: .3rem;
   background: -webkit-linear-gradient(#ee9f62, #bc0a8c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: myFont;
 }
-
 
 .quote {
-	color: white;
+  color: white;
+  font-style: italic;
+  font-family: cursive;
 }
+@media only screen and (min-width: 479px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 80px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .main-header{
+	font-size: 5rem!important;
+	
+  }
+  .quote{
+	font-size: 1.4rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 479px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 80px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .main-header{
+	font-size: 5rem!important;
+	
+  }
+  .quote{
+	font-size: 1.8rem;
+  }
+}
+
+
+@media only screen and (min-width: 760px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 120px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .main-header{
+	font-size: 8rem!important;
+	letter-spacing: .7rem;
+	
+  }
+  .quote{
+	font-size: 1.8rem;
+  }
+}
+

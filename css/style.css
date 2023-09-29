@@ -2556,7 +2556,6 @@ ol {
 .carousel-section {
   position: relative;
   overflow: hidden;
-  margin-bottom: 80px;
   background: black;
 }
 
@@ -2658,4 +2657,10 @@ ol {
   .quote {
     font-size: 1.8rem;
   }
+}
+
+
+
+.pricing-section {
+	margin-top: 80px;
 }
